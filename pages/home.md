@@ -7,14 +7,15 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+ 
+About: Daniel Morgan
+ 
+I work and play at [Tumult](http://tumult.com) and my core focus is supporting users creating HTML5 animations with Tumult Hype. I've worked with teams at Amazon Game Studios, Reuters, Al Jazeera, Foursquare & more to help create performant prototypes, infographics, and web content. I problem-solve for the web.
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+I'm currently starting up an internet-infused creative space in New York's Catskill Mountains with my partner, Willa Koerner. Learn all about it here: [thestrange.foundation](https://thestrange.foundation).
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+I occasionally take on side projects to keep the mental juices flowing, ranging from cryptocurrency analysis to web & email programming to general web tech consulting. Projects like Kickstarter's year in review:
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+https://kickstarter.com/year/2016/
 
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+I also sometimes [write about Bitcoin](https://rememberi.es/index.php?/essays/2017/12/the-great-bitcoin-scaling-debate-a-timeline/), and you can find me [on Medium here](https://medium.com/@danielmorgan).

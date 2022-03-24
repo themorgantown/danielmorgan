@@ -1,196 +1,389 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+    --primary: blue;
+    --secondary: white;
+    --background: white;
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-	padding: 0;
-	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	background-color: var(--background);
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--background);
 }
 
 main {
-	max-width: 37.5em;
+    max-width: 44em;
 }
 
 p,
 pre,
 code {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 a[href],
 a[href]:visited {
-	color: var(--primary);
+    color: var(--primary);
 }
 
 a[href]:not(:hover) {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 header,
 main,
 footer {
-	padding: 1em;
+    padding: 1em;
 }
 
 main {
-	padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 main :first-child,
-main > article :first-child {
-	margin-top: 0;
+main>article :first-child {
+    margin-top: 0;
 }
 
 pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
+    font-size: 14px;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 2;
+    tab-size: 2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    padding: 1em;
+    margin: .5em 0;
 }
 
 /* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
+header>em {
+    display: block;
+    font-size: 2em;
+    margin: .67em 0;
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Header Nav */
 header nav ul {
-	padding: 0;
-	list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 header nav ul :first-child {
-	margin-left: 0;
+    margin-left: -5px;
 }
 
 header nav li {
-	display: inline-block;
-	margin: 0 .25em;
+    display: inline-block;
+    margin: 0 .25em;
 }
 
 header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+    padding: .25em .5em;
+    border-radius: .25em;
 }
 
 header nav li a[href]:not(:hover) {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+    background-color: white;
 }
 
 /* Posts List */
 article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--secondary);
 }
 
-main > section > article > * {
-	margin-top: 0;
-	margin-bottom: .5em;
+main>section>article>* {
+    margin-top: 0;
+    margin-bottom: .5em;
 }
 
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
-	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid var(--secondary);
-	background-color: var(--secondary);
-	color: var(--primary);
-  border-radius: .25em;
-  text-decoration: none;
-	margin: 0 .5em .5em 0;
+    display: inline-block;
+    vertical-align: text-top;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .625em;
+    padding: 0 .5em;
+    line-height: 2em;
+    height: 2em;
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: .25em;
+    text-decoration: none;
+    margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 a[rel="tag"]:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 /* Contact Form */
 form {
-  display: grid;
-	padding: 2em 0;
+    display: grid;
+    padding: 2em 0;
 }
 
 form label {
-  display: none;
+    display: none;
 }
 
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
 input,
 textarea {
-	border: 1px solid black;
+    border: 1px solid black;
 }
 
 button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor: pointer;
 }
 
 @media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
+    :root {
+        font-size: 1.1rem;
+    }
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 400;
+    src: local(.SFNSText-Medium), local(.HelveticaNeueDeskInterface-MediumP4), local(.LucidaGrandeUI), local("Segoe UI Semibold"), local("Ubuntu Medium"), local(Roboto-Medium), local(DroidSans-Bold), local("Tahoma Bold")
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 400;
+    src: local(.SFNSText-MediumItalic), local(.HelveticaNeueDeskInterface-MediumItalicP4), local(.LucidaGrandeUI), local("Segoe UI Semibold Italic"), local("Ubuntu Medium Italic"), local(Roboto-MediumItalic), local(DroidSans-Bold), local("Tahoma Bold")
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    src: local(.SFNSText-Bold), local(.HelveticaNeueDeskInterface-Bold), local(.LucidaGrandeUI), local("Segoe UI Bold"), local("Ubuntu Bold"), local(Roboto-Bold), local(DroidSans-Bold), local("Tahoma Bold")
+}
+
+@font-face {
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 700;
+    src: local(.SFNSText-BoldItalic), local(.HelveticaNeueDeskInterface-BoldItalic), local(.LucidaGrandeUI), local("Segoe UI Bold Italic"), local("Ubuntu Bold Italic"), local(Roboto-BoldItalic), local(DroidSans-Bold), local("Tahoma Bold")
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: system-ui, sans-serif;
+    max-width: 768px;
+    padding: 16px;
+    margin: 0 auto
+}
+
+h1, h2, h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: system-ui, sans-serif
+}
+
+/* h1 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: monospace;
+    display: inline-block;
+    width: 7rem;
+    margin-top: -4px
+} */
+
+.post {
+    font-size: 24px;
+    margin-bottom: 2px
+}
+
+ul {
+    padding-left: 16px;
+    margin-bottom: 32px
+}
+
+li {
+    margin-bottom: 8px
+}
+
+ul.pagination {
+    list-style-type: none;
+    text-align: center;
+    padding: 0
+}
+
+ul.pagination>li {
+    padding: 0 8px;
+    display: inline-block
+}
+
+div.footer {
+    border-top: 1px solid [[eee]];
+    text-align: center
+}
+
+div.footer ul {
+    list-style: none;
+    margin: 24px 0 0;
+    padding: 0
+}
+
+div.footer ul li {
+    display: inline-block;
+    width: 148px
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+ 
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+#progress-bar {
+    margin-left:-10px;
+--scrollAmount: 0%;
+
+background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+width: var(--scrollAmount);
+
+background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
+width: 100%; 
+
+height: 3px;
+position: fixed;
+top: 0;
 }

@@ -18,12 +18,30 @@ section: post
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        Tags: <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </p>
   {% endif %}
 
+
+<script>let processScroll = () => {
+  let docElem = document.documentElement, 
+    docBody = document.body,
+    scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+    scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+    scrollPercent = scrollTop / scrollBottom * 100 + '%';
+  
+   console.log(scrollTop + ' / ' + scrollBottom + ' / ' + scrollPercent);
+  
+     
+        document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent); 
+     
+     
+    }
+
+
+document.addEventListener('scroll', processScroll);</script>
 </article>
 
 <nav>

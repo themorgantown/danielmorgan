@@ -3,7 +3,7 @@ title: The Great Bitcoin Scaling Debate-A Timeline
 metaDescription: test
 date: 2017-12-03T00:00:00.000Z
 author: Daniel Morgan
-summary: test
+summary: This timeline chronicles the repeated attempts to scale Bitcoin’s blockchain, and details how each attempt has — so far — been unsuccessful. It covers all important dates in the scaling debate, focusing on how and why alternative implementations of Bitcoin have sprung up in an effort to scale the blockchain to a larger block sizes.
 tags:
   - bitcoin
 ---
@@ -11,18 +11,8 @@ tags:
 
 **Why have so many attempts to scale Bitcoin’s blockchain failed?**
 
-
-xx
- 
- 
-![](https://cdn-images-1.medium.com/max/1600/0*idtiYHVvXJERF21r.)
-
-![](/static/img/0*idtiYHVvXJERF21r.png)
- 
-
-
 This timeline chronicles the repeated attempts to scale Bitcoin’s blockchain, and details how each attempt has — so far — been unsuccessful. It covers all important dates in the scaling debate, focusing on how and why alternative implementations of Bitcoin have sprung up in an effort to scale the blockchain to a larger block sizes.
-
+ 
 **A brief overview of why the block size of 1 MB has never increased:**
 
 Efforts to increase the block size of Bitcoin began with appeals from developers like Gavin Andresen, Jeff Garzik, and Mike Hearn as early as 2011. They anticipated a time when the rate of transactions would exceed the available space in blocks and sought to increase the block size limit — a change that might seem straightforward. The block size was put in place to limit the possibility that someone could cheaply spam the network. Sending a large number of transactions was cheap, and it would have been possible to crowd out other transactions [for a small investment](http://gavinandresen.ninja/One-Dollar-Lulz).
