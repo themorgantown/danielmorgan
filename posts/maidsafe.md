@@ -5,17 +5,11 @@ metaDescription: This is a sample meta description. If one is not present in
   instead.
 date: 2015-07-25T00:00:00.000Z
 author: Daniel Morgan
-summary: x
+summary:  
 tags:
   - bitcoin
 ---
-
-
 #### The Internet is broken, but a revolutionary technology that could fix it is coming.
-
-
-![test](/static/img/1*TmMwrjqc0BoHj8eRgWxkGA.jpg)
- 
 
 The way data moves on the Internet hasn’t really changed in *decades.* From its inception until now, the Internet has become increasingly centralized, relying on growing acres of server farms. Each year the farms grow, users lose their ability to manage their own data, and the companies that control that data grow larger and richer. We’ve habituated this network design into our personal lives, laws, and commerce. Web services and business models will continue to build on this foundation unless something changes.
 
