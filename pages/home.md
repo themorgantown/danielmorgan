@@ -8,14 +8,15 @@ eleventyNavigation:
   order: 0
 ---
  
-About: Daniel Morgan
+*some years*
  
-I work and play at [Tumult](http://tumult.com) and my core focus is supporting users creating HTML5 animations with Tumult Hype. I've worked with teams at Amazon Game Studios, Reuters, Al Jazeera, Foursquare & more to help create performant prototypes, infographics, and web content. I problem-solve for the web.
-
-I'm currently starting up an internet-infused creative space in New York's Catskill Mountains with my partner, Willa Koerner. Learn all about it here: [thestrange.foundation](https://thestrange.foundation).
-
-I occasionally take on side projects to keep the mental juices flowing, ranging from cryptocurrency analysis to web & email programming to general web tech consulting. Projects like Kickstarter's year in review:
-
-https://kickstarter.com/year/2016/
-
-I also sometimes [write about Bitcoin](https://rememberi.es/index.php?/essays/2017/12/the-great-bitcoin-scaling-debate-a-timeline/), and you can find me [on Medium here](https://medium.com/@danielmorgan).
+ 
+* ***2007-2008*** Internship @ Photography Department of New Yorker Magazine
+* ***2008*** Project Manager @ web design and development agency [Gelofactory](https://www.gelofactory.com/)
+* ***2010*** [Hello Chair](https://www.ycombinator.com/companies/hello-chair) / Explor / Appsaurus
+* ***2011*** Ongoing: Tumult Inc, Director of Support. Helping people create HTML5 animations with Tumult Hype. Problem solving for teams at Amazon Game Studios, Reuters, Al Jazeera, Foursquare, & Soundcloud. 
+* ***2013*** Web Development, Fundraising & Advisory Board Chair @ [Global Glimpse](https://globalglimpse.org/) 
+* ***2016*** Built Kickstarter's [year in review](https://kickstarter.com/year/2016/) with [Gretel](https://gretelny.com/) 
+* ***2018*** Moved out of Brooklyn & launched [thestrange.foundation](https://thestrange.foundation), an artist residency in the Catskills with [Willa Koerner](https://willakoerner.com/).
+ 
+I also sometimes [write about Bitcoin](/tags/bitcoin/), and you can find me [on Medium here](https://medium.com/@danielmorgan).

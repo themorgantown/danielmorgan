@@ -9,10 +9,8 @@
 }
 
 body {
-    
     height: 100vh;
     width:100%;
-    
     background-color: var(--background);
 }
 
@@ -35,7 +33,7 @@ a[href]:visited {
 a[href]:not(:hover) {
     text-decoration: none;
 }
-
+ 
 img {
     max-width: 100%;
     height: auto;
@@ -108,6 +106,7 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
     background-color: white;
+    text-decoration: underline !important;
 }
 
 /* Posts List */
@@ -307,7 +306,7 @@ ol[class] {
 }
 
 /* Remove default margin */
-body,
+/* body,
 h1,
 h2,
 h3,
@@ -320,7 +319,7 @@ blockquote,
 dl,
 dd {
     margin: 0;
-}
+} */
 
 /* Set core root defaults */
 html {
