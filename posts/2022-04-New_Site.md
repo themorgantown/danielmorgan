@@ -9,7 +9,13 @@ tags:
   - meta
 ---
 
-Why not test Eleventy & make a new website in the process? 
+Why not play around with Eleventy & make a new website in the process? 
+
+So impressive that building & deploying this site takes about half a second on Netlify: 
+
+> [11ty] Copied 125 files / Wrote 14 files in 0.22 seconds (15.7ms each, v1.0.0)
+
+
 
 Thanks to <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a> for the perfect eleventy template for this site.  
 
