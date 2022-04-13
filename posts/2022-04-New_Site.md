@@ -2,7 +2,7 @@
 title: This is the first example post
 metaDescription: x
   instead.
-date: 2010-01-01T00:00:00.000Z
+date: 2022-04-13T00:00:00.000Z
 author: Daniel Morgan
 summary: Hi there. 
 tags:
