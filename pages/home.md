@@ -10,7 +10,6 @@ eleventyNavigation:
  
 *some years*
  
- 
 * ***2007-2008*** Internship @ Photography Department of New Yorker Magazine
 * ***2008*** Project Manager @ web design and development agency [Gelofactory](https://www.gelofactory.com/)
 * ***2010*** [Hello Chair](https://www.ycombinator.com/companies/hello-chair) / Explor / Appsaurus
