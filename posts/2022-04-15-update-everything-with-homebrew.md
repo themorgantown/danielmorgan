@@ -9,7 +9,7 @@ tags:
   - meta
 ---
 
-To quickly get all available updates  have [Homebrew](https://brew.sh/) installed, 
+To quickly get all available updates if you have [Homebrew](https://brew.sh/) installed, run:
 
 `brew update && brew outdated && brew upgrade && brew cu -ay && brew upgrade --cask --greedy && softwareupdate -i -a && brew cleanup`
 
