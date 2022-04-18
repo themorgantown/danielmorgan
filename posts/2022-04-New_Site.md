@@ -1,7 +1,6 @@
 ---
-title: Hey there
-metaDescription: x
-  instead.
+title: Hey There
+metaDescription: Homebrew tip #1
 date: 2022-04-13T00:00:00.000Z
 author: Daniel Morgan
 summary: Hi there. 
