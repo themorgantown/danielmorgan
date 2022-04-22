@@ -10,9 +10,9 @@ tags:
 
 Why not play around with Eleventy & make a new website in the process? 
 
-So impressive that building & deploying this site takes about half a second on Netlify: 
+So impressive that building & deploying this site takes about half a second: 
 
-> [11ty] Copied 125 files / Wrote 14 files in 0.22 seconds (15.7ms each, v1.0.0)
+> `Copied 159 files / Wrote 15 files in 0.40 seconds (26.7ms each)`
 
 
 
